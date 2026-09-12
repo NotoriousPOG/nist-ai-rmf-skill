@@ -1,0 +1,48 @@
+# NOTICE
+
+## This project
+
+Copyright (c) 2026 NotoriousPOG (Stephen Starr)  
+Licensed under the MIT License (see `LICENSE`).
+
+This repository provides a Cursor/Claude **agent skill** and helper scripts for
+assessing AI/LLM systems against the NIST AI Risk Management Framework (AI RMF).
+
+## Full credit: National Institute of Standards and Technology (NIST)
+
+This skill is built on and credits NIST’s publicly available AI risk management
+work. **All conceptual credit for the AI RMF, Playbook structure, and related
+profiles belongs to NIST and its contributors.** This project is an independent
+implementation aid for practitioners; it is **not affiliated with, endorsed by,
+or sponsored by NIST**.
+
+### Official NIST sources (authoritative)
+
+| Document | Link |
+|----------|------|
+| **AI RMF hub** | https://www.nist.gov/itl/ai-risk-management-framework |
+| **NIST AI 100-1** — Artificial Intelligence Risk Management Framework (AI RMF 1.0) | https://doi.org/10.6028/NIST.AI.100-1 |
+| **AI RMF Playbook** | https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook |
+| **NIST AI 100-2** — Adversarial Machine Learning | https://doi.org/10.6028/NIST.AI.100-2e2025 |
+| **NIST AI 600-1** — Generative AI Profile | https://doi.org/10.6028/NIST.AI.600-1 |
+
+Always prefer the official NIST PDFs/HTML above when wording or requirements conflict with this repository’s summaries or structured extracts.
+
+### What we derived
+
+- `references/playbook.json` and `references/playbook-packs/` are structured
+  extracts of Playbook subcategory content for machine-assisted assessment.
+- `references/rmf-core.md` / `rmf-profiles.md` summarize RMF concepts for agents.
+- `references/nist-ai-security-overlay.md` uses threat/GenAI language inspired by
+  NIST AI 100-2 and NIST AI 600-1 (prompt sheet only — not a second scored catalog).
+
+NIST publications are works of the U.S. Government. In the United States, U.S.
+government works are generally not subject to copyright. Retain this NOTICE when
+redistributing those extracts.
+
+## Disclaimer
+
+This skill is a voluntary governance aid. It is **not** legal advice, **not** a
+certification, and **not** a substitute for reading NIST’s official documents or
+obtaining qualified counsel. Do not commit secrets, PATs, or customer data into
+reports or this repository.

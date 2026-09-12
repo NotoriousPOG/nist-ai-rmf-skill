@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local assessment outputs (may contain customer/sensitive data)
+nist-ai-rmf-assessment-*.md
+nist-ai-rmf-inventory-*.md
+*-assessment-filled.md
+*-inventory-filled.md
+
+# Secrets / credentials (never commit)
+*.pem
+*.key
+id_rsa*
+credentials.json
+secrets.yaml
+secrets.yml
+.env.local
