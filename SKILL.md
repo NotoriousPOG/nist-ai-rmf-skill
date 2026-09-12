@@ -26,6 +26,8 @@ Default subject: the **customer’s AI product/system**, not the assessor’s pe
 
 ISO/IEC 42001 certification/SoA → point to the separate `iso42001` skill (do not half-do 42001 here).
 
+**NIST credit:** Always attribute the AI RMF / Playbook to NIST. Authoritative links live in `NOTICE` and the README Sources table (AI RMF hub, AI 100-1, Playbook, AI 100-2, AI 600-1). This skill is **not NIST-endorsed**.
+
 ---
 
 ## Non-negotiable Assessment Mode rules
